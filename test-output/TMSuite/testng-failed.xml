@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TMSuite]">
+  <test thread-count="5" name="STest">
+    <classes>
+      <class name="TestingMasters.TM1"/>
+      <class name="TestingMasters.TM2"/>
+    </classes>
+  </test> <!-- STest -->
+</suite> <!-- Failed suite [TMSuite] -->
