@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class DragAndDrop extends Base{
-  @Test(enabled=false)
+  @Test(enabled=true)
 	  public void MouseHoverAction() throws InterruptedException {
 		  driver.manage().window().maximize();
 		  driver.get("https://jqueryui.com/");

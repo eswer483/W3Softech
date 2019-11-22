@@ -3,18 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.DependencyMethods"/>
+      <class name="com.DragAndDrop"/>
     </classes>
   </test> <!-- Default test -->
   <test name="Default test(failed)">
     <classes>
-      <class name="com.DependencyMethods">
+      <class name="com.DragAndDrop">
         <methods>
-          <include name="namevalid"/>
-          <include name="compare"/>
-          <include name="name"/>
+          <include name="MouseHoverAction"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.DependencyMethods -->
+      </class> <!-- com.DragAndDrop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
